@@ -6,5 +6,4 @@ raw_data/
 **/__pycache__/
 .env
 *.models
-*.joblib
 *.csv

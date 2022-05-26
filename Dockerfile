@@ -4,6 +4,8 @@ COPY random_forest.joblib /random_forest.joblib
 COPY requirements.txt /requirements.txt
 COPY api /api 
 COPY taxifare /taxifare 
+COPY setup.py /setup.py
+COPY scripts /scripts
 
 RUN pip install --upgrade pip
 RUN pip install -e .
